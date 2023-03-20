@@ -18,11 +18,13 @@ import Form from "./Components/Form";
 import LifecycleA from "./Components/LifecycleA";
 import PureComp from "./Components/PureComp";
 import ParentComp from "./Components/ParentComp";
+import TimerComp from "./Components/TimerComp";
 
 function App() {
   return (
     <div className="App">
-      <ParentComp></ParentComp>
+      <TimerComp></TimerComp>
+      {/* <ParentComp></ParentComp> */}
       {/* <LifecycleA></LifecycleA> */}
       {/* <Form></Form> */}
       {/* <h1 className="error">Error</h1>
