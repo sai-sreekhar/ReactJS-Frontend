@@ -57,7 +57,7 @@ class TimerComp extends Component {
       <div>
         <h1>Timer Component</h1>
         <h2>Time: {this.state.time}</h2>
-        <input type="number" onChange={this.onChangeEventHandler} />
+        <input type="number" onChange={this.onChangeEventHandler} disabled={!this.state.shouldEnableButton}/>
         <br />
         <button
           onClick={this.handleStart}
